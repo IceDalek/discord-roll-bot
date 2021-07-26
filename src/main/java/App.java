@@ -7,9 +7,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class App {
-
     public static void main(String[] args) throws LoginException {
-
         try {
             InputStream in = App.class.getResourceAsStream("tokens/token.txt");
             BufferedReader reader = new BufferedReader(new InputStreamReader(in));
